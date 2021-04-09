@@ -1,0 +1,46 @@
+body{
+    background: #e3e3e3;
+    font-family: Helvetica, sans-serif;
+}
+#saturno{
+    width: 960px;
+    margin: auto;
+}
+body nav ul{
+    list-style: none;
+    padding-left: 200px;
+}
+body nav ul li{
+    display: inline-block;
+    margin-right: 100px;
+}
+body nav ul li a{
+    font-family: arial;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.jinix{
+    background: #5ab4f2;
+    color: #fff;
+    box-shadow: 0 5px 0 #149fda;
+}
+.jinix:hover{
+    background: #149fda;
+    color: #fff;
+    box-shadow: 0 5px 0 #3863ae;
+}
+.jinix:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+.CMD{
+    color: black;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+}
